@@ -1,0 +1,6 @@
+Name: hostname
+Description: setup hostname
+Dependencies: []
+Wait: false
+Startup: "cat /etc/hostname > /proc/sys/kernel/hostname"
+Shutdown: ""

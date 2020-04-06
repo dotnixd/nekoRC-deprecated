@@ -1,0 +1,6 @@
+Name: agetty
+Description: tty
+Dependencies: []
+Wait: false
+Startup: agetty --noclear tty1
+Shutdown: ""

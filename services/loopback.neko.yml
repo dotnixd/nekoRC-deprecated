@@ -1,0 +1,7 @@
+Name: loopback
+Description: setup lo interface
+Dependencies: 
+  - udevd
+Wait: false
+Startup: ip link set up dev lo
+Shutdown: ""
